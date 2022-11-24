@@ -1,0 +1,6 @@
+Started by user [8mha:////4L1unL1ymRBprDhx1tRSkwquNBllN8HN9p9L8Et+lTBtAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/dLi1CL93MS8xOLEpIzEEgAtoZAAxQAAAA==[0mmanasabhat
+Running as SYSTEM
+Building remotely on [8mha:////4JMG9Cpf2VKCif3QkeHybTFxtOmF34d//goMftHLOu6kAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZx/eT83ILSktQi/YCixOSSzOLUeC+gqQCR3IzmzAAAAA==[0mPractise_Java (practise) in workspace /home/jenkins/workspace/Deploy_181122_Java
+[Deploy_181122_Java] $ /bin/sh -xe /tmp/jenkins10529948138916443209.sh
++ sudo cp /home/jenkins/workspace/Practise_Java_181122/target/hello-world-war-1.0.0.war /opt/tomcat/webapps
+Finished: SUCCESS

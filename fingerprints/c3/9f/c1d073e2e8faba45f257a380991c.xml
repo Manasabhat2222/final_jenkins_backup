@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-11-21 09:09:06.31 UTC</timestamp>
+  <md5sum>c39fc1d073e2e8faba45f257a380991c</md5sum>
+  <fileName>Credential id=private_repo name=Manasabhat2222/****** (for private repo)</fileName>
+  <usages>
+    <entry>
+      <string>frustrated_param1</string>
+      <ranges>13-15</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

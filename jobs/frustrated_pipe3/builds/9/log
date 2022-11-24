@@ -1,0 +1,156 @@
+Started by user [8mha:////4L1unL1ymRBprDhx1tRSkwquNBllN8HN9p9L8Et+lTBtAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/dLi1CL93MS8xOLEpIzEEgAtoZAAxQAAAA==[0mmanasabhat
+[8mha:////4NpzjPrbiW3Ly5EoU8oHuwC78SjuAv20WrAKH9TL2sgIAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4HtxO7SYXkT9ijvmkwmGr0Q4G2txkg+57F5VQ//29CM4AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4BlY/KL2SJuEX4SCbxEV+hwRwr0ek03JywwrAH5aqOY0AAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/lib/jenkins/workspace/frustrated_pipe3@2
+[8mha:////4DA7VbvVthw3uYM/Pr6spHym72VUbKF84LszXoiDs2lqAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4NHrBbcsAUbf3TZawplawtsQYdRDi9PmCkBHH4eZn0MdAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4PALxTy0ZvhnLLa418OYO7uH70utALgFGu6lqMM13MkLAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (parallel)
+[8mha:////4KMfSTTiu/OUK4W7NsoIUnE9ZavrVvQbp0yJJtJ8OBDNAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] parallel
+[8mha:////4JOJejQL/yjLenb55fY+52QDTP15OE7ew0O+YXUEHxNLAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0RAgxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jdMjKvkwAAAAA==[0m[Pipeline] { (Branch: test1)
+[8mha:////4Irwkrz0Kjd6kzsDzqyivQvC5IG6/pltFKiu5N0OtV1YAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDFQWiorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INt4LIyMEAAAA=[0m[Pipeline] { (Branch: test2)
+[8mha:////4PnY51Fd0hUxY/4OaxmDocPO9UiYg8vdxH34w6cTkzDmAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYSjlAhR0VpueIGJjXFi3QX7QlLxIr7GHzBEomKrnZVW83xBlSIcKDrRWew9ptaLIYwuNzFR7C+BJtHRWbSEiYIVyk6KjD0uqIgtLClKWElYW2wDJY+OYSM7fdd10OjqE8e87SWU3tzgAYXMZtaRvzBH2F5Hkwh/nr8CmAeGYsdQNs3nWL0BFHriUcEAAAA=[0m[Pipeline] stage
+[8mha:////4KIumsz397IMVBkb8ZZnG28hhAlTmwHOmuQNi7RuuFi0AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] { (test1)
+[8mha:////4K+sGMe1wFnW3aGSyiWYiq8gQ3UaTzIDUZNvyDPdkKw5AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUxIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfL9brbD/Cw+CgB4kcIAAAA=[0m[Pipeline] stage
+[8mha:////4LU5NNc9Bn3URXifN4puCSNMk5vDhRK8X8IRzdY30EqcAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] { (test2)
+[8mha:////4AeBome49mjKGZUThfVbB0yFIfIyMP8yt9yssmeOddlmAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN/+Owku+AAAA[0m[Pipeline] sh
+[8mha:////4IdRJzyUzShkE5eFrHXDVZVtc8BNlAKkojSkdVlrzH0SAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEG6D8DvgAAAA==[0m[Pipeline] sh
++ ls -lrt
++ cat test1
+total 0
+-rw-r--r-- 1 jenkins jenkins 0 Nov 20 06:21 test1
++ sleep 5
++ ps -ef
++ cat test2
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 02:05 ?        00:00:03 /sbin/init
+root           2       0  0 02:05 ?        00:00:00 [kthreadd]
+root           3       2  0 02:05 ?        00:00:00 [rcu_gp]
+root           4       2  0 02:05 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 02:05 ?        00:00:00 [netns]
+root           7       2  0 02:05 ?        00:00:00 [kworker/0:0H-events_highpri]
+root           9       2  0 02:05 ?        00:00:00 [kworker/0:1H-kblockd]
+root          10       2  0 02:05 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 02:05 ?        00:00:00 [rcu_tasks_rude_]
+root          12       2  0 02:05 ?        00:00:00 [rcu_tasks_trace]
+root          13       2  0 02:05 ?        00:00:00 [ksoftirqd/0]
+root          14       2  0 02:05 ?        00:00:00 [rcu_sched]
+root          15       2  0 02:05 ?        00:00:00 [migration/0]
+root          16       2  0 02:05 ?        00:00:00 [idle_inject/0]
+root          17       2  0 02:05 ?        00:00:00 [kworker/0:1-cgroup_destroy]
+root          18       2  0 02:05 ?        00:00:00 [cpuhp/0]
+root          19       2  0 02:05 ?        00:00:00 [kdevtmpfs]
+root          20       2  0 02:05 ?        00:00:00 [inet_frag_wq]
+root          21       2  0 02:05 ?        00:00:00 [kauditd]
+root          22       2  0 02:05 ?        00:00:00 [khungtaskd]
+root          23       2  0 02:05 ?        00:00:00 [oom_reaper]
+root          24       2  0 02:05 ?        00:00:00 [writeback]
+root          25       2  0 02:05 ?        00:00:00 [kcompactd0]
+root          26       2  0 02:05 ?        00:00:00 [ksmd]
+root          27       2  0 02:05 ?        00:00:00 [khugepaged]
+root          73       2  0 02:05 ?        00:00:00 [kintegrityd]
+root          74       2  0 02:05 ?        00:00:00 [kblockd]
+root          75       2  0 02:05 ?        00:00:00 [blkcg_punt_bio]
+root          76       2  0 02:05 ?        00:00:00 [xen-balloon]
+root          77       2  0 02:05 ?        00:00:00 [tpm_dev_wq]
+root          78       2  0 02:05 ?        00:00:00 [ata_sff]
+root          79       2  0 02:05 ?        00:00:00 [md]
+root          80       2  0 02:05 ?        00:00:00 [edac-poller]
+root          81       2  0 02:05 ?        00:00:00 [devfreq_wq]
+root          82       2  0 02:05 ?        00:00:00 [watchdogd]
+root          85       2  0 02:05 ?        00:00:00 [kswapd0]
+root          86       2  0 02:05 ?        00:00:00 [ecryptfs-kthrea]
+root          88       2  0 02:05 ?        00:00:00 [kthrotld]
+root          89       2  0 02:05 ?        00:00:00 [acpi_thermal_pm]
+root          90       2  0 02:05 ?        00:00:00 [xenbus]
+root          91       2  0 02:05 ?        00:00:00 [xenwatch]
+root          92       2  0 02:05 ?        00:00:00 [nvme-wq]
+root          93       2  0 02:05 ?        00:00:00 [nvme-reset-wq]
+root          94       2  0 02:05 ?        00:00:00 [nvme-delete-wq]
+root          95       2  0 02:05 ?        00:00:00 [scsi_eh_0]
+root          96       2  0 02:05 ?        00:00:00 [scsi_tmf_0]
+root          97       2  0 02:05 ?        00:00:00 [scsi_eh_1]
+root          98       2  0 02:05 ?        00:00:00 [scsi_tmf_1]
+root         100       2  0 02:05 ?        00:00:00 [vfio-irqfd-clea]
+root         101       2  0 02:05 ?        00:00:00 [mld]
+root         102       2  0 02:05 ?        00:00:00 [ipv6_addrconf]
+root         111       2  0 02:05 ?        00:00:00 [kstrp]
+root         114       2  0 02:05 ?        00:00:00 [zswap-shrink]
+root         115       2  0 02:05 ?        00:00:00 [kworker/u31:0]
+root         120       2  0 02:05 ?        00:00:00 [charger_manager]
+root         121       2  0 02:05 ?        00:00:00 [jbd2/xvda1-8]
+root         122       2  0 02:05 ?        00:00:00 [ext4-rsv-conver]
+root         162       1  0 02:05 ?        00:00:00 /lib/systemd/systemd-journald
+root         196       1  0 02:05 ?        00:00:00 /lib/systemd/systemd-udevd
+root         209       2  0 02:05 ?        00:00:00 [cryptd]
+root         282       2  0 02:05 ?        00:00:00 [kaluad]
+root         283       2  0 02:05 ?        00:00:00 [kmpath_rdacd]
+root         284       2  0 02:05 ?        00:00:00 [kmpathd]
+root         285       2  0 02:05 ?        00:00:00 [kmpath_handlerd]
+root         286       1  0 02:05 ?        00:00:00 /sbin/multipathd -d -s
+systemd+     351       1  0 02:05 ?        00:00:00 /lib/systemd/systemd-timesyncd
+systemd+     413       1  0 02:05 ?        00:00:00 /lib/systemd/systemd-networkd
+systemd+     415       1  0 02:05 ?        00:00:00 /lib/systemd/systemd-resolved
+root         450       1  0 02:05 ?        00:00:00 /usr/lib/accountsservice/accounts-daemon
+root         451       1  0 02:05 ?        00:00:00 /usr/sbin/acpid
+root         458       1  0 02:05 ?        00:00:00 /usr/sbin/cron -f
+message+     459       1  0 02:05 ?        00:00:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+jenkins      467       1  1 02:05 ?        00:03:41 /usr/bin/java -Djava.awt.headless=true -jar /usr/share/java/jenkins.war --webroot=/var/cache/jenkins/war --httpPort=8080
+root         469       1  0 02:05 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         471       1  0 02:05 ?        00:00:00 /usr/lib/policykit-1/polkitd --no-debug
+syslog       472       1  0 02:05 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root         473       1  0 02:05 ?        00:00:01 /snap/amazon-ssm-agent/6312/amazon-ssm-agent
+root         478       1  0 02:05 ?        00:00:00 /usr/lib/snapd/snapd
+root         479       1  0 02:05 ?        00:00:00 /lib/systemd/systemd-logind
+root         481       1  0 02:05 ?        00:00:00 /usr/lib/udisks2/udisksd
+daemon       484       1  0 02:05 ?        00:00:00 /usr/sbin/atd -f
+root         529       1  0 02:05 ttyS0    00:00:00 /sbin/agetty -o -p -- \u --keep-baud 115200,38400,9600 ttyS0 vt220
+root         544       1  0 02:05 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root         547       1  0 02:05 ?        00:00:00 /usr/sbin/ModemManager
+root         638       1  0 02:05 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         776       1  0 02:05 ?        00:00:00 sshd: /usr/sbin/sshd -D -o AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys %u %f -o AuthorizedKeysCommandUser ec2-instance-connect [listener] 0 of 10-100 startups
+root         797     473  0 02:05 ?        00:00:01 /snap/amazon-ssm-agent/6312/ssm-agent-worker
+root         806       2  0 02:05 ?        00:00:00 [kworker/0:4-events]
+root        1967       2  0 05:54 ?        00:00:00 [kworker/u30:0-events_unbound]
+root        2182       2  0 06:14 ?        00:00:00 [kworker/u30:2-events_power_efficient]
+root        2196     776  0 06:17 ?        00:00:00 sshd: ubuntu [priv]
+ubuntu      2199       1  0 06:17 ?        00:00:00 /lib/systemd/systemd --user
+ubuntu      2200    2199  0 06:17 ?        00:00:00 (sd-pam)
+ubuntu      2275    2196  0 06:17 ?        00:00:00 sshd: ubuntu@pts/0
+ubuntu      2276    2275  0 06:17 pts/0    00:00:00 -bash
+root        2360       2  0 06:20 ?        00:00:00 [kworker/u30:1]
+jenkins     2428       1  0 06:21 ?        00:00:00 sh -c ({ while [ -d '/var/lib/jenkins/workspace/frustrated_pipe3@tmp/durable-dc85566a' -a \! -f '/var/lib/jenkins/workspace/frustrated_pipe3@tmp/durable-dc85566a/jenkins-result.txt' ]; do touch '/var/lib/jenkins/workspace/frustrated_pipe3@tmp/durable-dc85566a/jenkins-log.txt'; sleep 3; done } & jsc=durable-767866cd623dabf63e76b89c9ede4de927738a9e9d781b7bc9d29077b21d226f; JENKINS_SERVER_COOKIE=$jsc 'sh' -xe  '/var/lib/jenkins/workspace/frustrated_pipe3@tmp/durable-dc85566a/script.sh' > '/var/lib/jenkins/workspace/frustrated_pipe3@tmp/durable-dc85566a/jenkins-log.txt' 2>&1; echo $? > '/var/lib/jenkins/workspace/frustrated_pipe3@tmp/durable-dc85566a/jenkins-result.txt.tmp'; mv '/var/lib/jenkins/workspace/frustrated_pipe3@tmp/durable-dc85566a/jenkins-result.txt.tmp' '/var/lib/jenkins/workspace/frustrated_pipe3@tmp/durable-dc85566a/jenkins-result.txt'; wait) >&- 2>&- &
+jenkins     2430    2428  0 06:21 ?        00:00:00 sh -c ({ while [ -d '/var/lib/jenkins/workspace/frustrated_pipe3@tmp/durable-dc85566a' -a \! -f '/var/lib/jenkins/workspace/frustrated_pipe3@tmp/durable-dc85566a/jenkins-result.txt' ]; do touch '/var/lib/jenkins/workspace/frustrated_pipe3@tmp/durable-dc85566a/jenkins-log.txt'; sleep 3; done } & jsc=durable-767866cd623dabf63e76b89c9ede4de927738a9e9d781b7bc9d29077b21d226f; JENKINS_SERVER_COOKIE=$jsc 'sh' -xe  '/var/lib/jenkins/workspace/frustrated_pipe3@tmp/durable-dc85566a/script.sh' > '/var/lib/jenkins/workspace/frustrated_pipe3@tmp/durable-dc85566a/jenkins-log.txt' 2>&1; echo $? > '/var/lib/jenkins/workspace/frustrated_pipe3@tmp/durable-dc85566a/jenkins-result.txt.tmp'; mv '/var/lib/jenkins/workspace/frustrated_pipe3@tmp/durable-dc85566a/jenkins-result.txt.tmp' '/var/lib/jenkins/workspace/frustrated_pipe3@tmp/durable-dc85566a/jenkins-result.txt'; wait) >&- 2>&- &
+jenkins     2440       1  0 06:21 ?        00:00:00 sh -c ({ while [ -d '/var/lib/jenkins/workspace/frustrated_pipe3@tmp/durable-f09817e6' -a \! -f '/var/lib/jenkins/workspace/frustrated_pipe3@tmp/durable-f09817e6/jenkins-result.txt' ]; do touch '/var/lib/jenkins/workspace/frustrated_pipe3@tmp/durable-f09817e6/jenkins-log.txt'; sleep 3; done } & jsc=durable-767866cd623dabf63e76b89c9ede4de927738a9e9d781b7bc9d29077b21d226f; JENKINS_SERVER_COOKIE=$jsc 'sh' -xe  '/var/lib/jenkins/workspace/frustrated_pipe3@tmp/durable-f09817e6/script.sh' > '/var/lib/jenkins/workspace/frustrated_pipe3@tmp/durable-f09817e6/jenkins-log.txt' 2>&1; echo $? > '/var/lib/jenkins/workspace/frustrated_pipe3@tmp/durable-f09817e6/jenkins-result.txt.tmp'; mv '/var/lib/jenkins/workspace/frustrated_pipe3@tmp/durable-f09817e6/jenkins-result.txt.tmp' '/var/lib/jenkins/workspace/frustrated_pipe3@tmp/durable-f09817e6/jenkins-result.txt'; wait) >&- 2>&- &
+jenkins     2441    2440  0 06:21 ?        00:00:00 sh -c ({ while [ -d '/var/lib/jenkins/workspace/frustrated_pipe3@tmp/durable-f09817e6' -a \! -f '/var/lib/jenkins/workspace/frustrated_pipe3@tmp/durable-f09817e6/jenkins-result.txt' ]; do touch '/var/lib/jenkins/workspace/frustrated_pipe3@tmp/durable-f09817e6/jenkins-log.txt'; sleep 3; done } & jsc=durable-767866cd623dabf63e76b89c9ede4de927738a9e9d781b7bc9d29077b21d226f; JENKINS_SERVER_COOKIE=$jsc 'sh' -xe  '/var/lib/jenkins/workspace/frustrated_pipe3@tmp/durable-f09817e6/script.sh' > '/var/lib/jenkins/workspace/frustrated_pipe3@tmp/durable-f09817e6/jenkins-log.txt' 2>&1; echo $? > '/var/lib/jenkins/workspace/frustrated_pipe3@tmp/durable-f09817e6/jenkins-result.txt.tmp'; mv '/var/lib/jenkins/workspace/frustrated_pipe3@tmp/durable-f09817e6/jenkins-result.txt.tmp' '/var/lib/jenkins/workspace/frustrated_pipe3@tmp/durable-f09817e6/jenkins-result.txt'; wait) >&- 2>&- &
+jenkins     2452    2430  0 06:21 ?        00:00:00 sleep 3
+jenkins     2454    2441  0 06:21 ?        00:00:00 sleep 3
+jenkins     2462       1  0 06:21 ?        00:00:00 sh -c ({ while [ -d '/var/lib/jenkins/workspace/frustrated_pipe3@2@tmp/durable-961551be' -a \! -f '/var/lib/jenkins/workspace/frustrated_pipe3@2@tmp/durable-961551be/jenkins-result.txt' ]; do touch '/var/lib/jenkins/workspace/frustrated_pipe3@2@tmp/durable-961551be/jenkins-log.txt'; sleep 3; done } & jsc=durable-b7fb66abb5e9d3dd4eaa04893cbeabc261674353c093f97f5e935cf14e9f3fbe; JENKINS_SERVER_COOKIE=$jsc 'sh' -xe  '/var/lib/jenkins/workspace/frustrated_pipe3@2@tmp/durable-961551be/script.sh' > '/var/lib/jenkins/workspace/frustrated_pipe3@2@tmp/durable-961551be/jenkins-log.txt' 2>&1; echo $? > '/var/lib/jenkins/workspace/frustrated_pipe3@2@tmp/durable-961551be/jenkins-result.txt.tmp'; mv '/var/lib/jenkins/workspace/frustrated_pipe3@2@tmp/durable-961551be/jenkins-result.txt.tmp' '/var/lib/jenkins/workspace/frustrated_pipe3@2@tmp/durable-961551be/jenkins-result.txt'; wait) >&- 2>&- &
+jenkins     2463    2462  0 06:21 ?        00:00:00 sh -c ({ while [ -d '/var/lib/jenkins/workspace/frustrated_pipe3@2@tmp/durable-961551be' -a \! -f '/var/lib/jenkins/workspace/frustrated_pipe3@2@tmp/durable-961551be/jenkins-result.txt' ]; do touch '/var/lib/jenkins/workspace/frustrated_pipe3@2@tmp/durable-961551be/jenkins-log.txt'; sleep 3; done } & jsc=durable-b7fb66abb5e9d3dd4eaa04893cbeabc261674353c093f97f5e935cf14e9f3fbe; JENKINS_SERVER_COOKIE=$jsc 'sh' -xe  '/var/lib/jenkins/workspace/frustrated_pipe3@2@tmp/durable-961551be/script.sh' > '/var/lib/jenkins/workspace/frustrated_pipe3@2@tmp/durable-961551be/jenkins-log.txt' 2>&1; echo $? > '/var/lib/jenkins/workspace/frustrated_pipe3@2@tmp/durable-961551be/jenkins-result.txt.tmp'; mv '/var/lib/jenkins/workspace/frustrated_pipe3@2@tmp/durable-961551be/jenkins-result.txt.tmp' '/var/lib/jenkins/workspace/frustrated_pipe3@2@tmp/durable-961551be/jenkins-result.txt'; wait) >&- 2>&- &
+jenkins     2464    2462  0 06:21 ?        00:00:00 sh -xe /var/lib/jenkins/workspace/frustrated_pipe3@2@tmp/durable-961551be/script.sh
+jenkins     2469    2463  0 06:21 ?        00:00:00 sleep 3
+jenkins     2472       1  0 06:21 ?        00:00:00 sh -c ({ while [ -d '/var/lib/jenkins/workspace/frustrated_pipe3@2@tmp/durable-97a4151d' -a \! -f '/var/lib/jenkins/workspace/frustrated_pipe3@2@tmp/durable-97a4151d/jenkins-result.txt' ]; do touch '/var/lib/jenkins/workspace/frustrated_pipe3@2@tmp/durable-97a4151d/jenkins-log.txt'; sleep 3; done } & jsc=durable-b7fb66abb5e9d3dd4eaa04893cbeabc261674353c093f97f5e935cf14e9f3fbe; JENKINS_SERVER_COOKIE=$jsc 'sh' -xe  '/var/lib/jenkins/workspace/frustrated_pipe3@2@tmp/durable-97a4151d/script.sh' > '/var/lib/jenkins/workspace/frustrated_pipe3@2@tmp/durable-97a4151d/jenkins-log.txt' 2>&1; echo $? > '/var/lib/jenkins/workspace/frustrated_pipe3@2@tmp/durable-97a4151d/jenkins-result.txt.tmp'; mv '/var/lib/jenkins/workspace/frustrated_pipe3@2@tmp/durable-97a4151d/jenkins-result.txt.tmp' '/var/lib/jenkins/workspace/frustrated_pipe3@2@tmp/durable-97a4151d/jenkins-result.txt'; wait) >&- 2>&- &
+jenkins     2473    2464  0 06:21 ?        00:00:00 sleep 5
+jenkins     2474    2472  0 06:21 ?        00:00:00 sh -c ({ while [ -d '/var/lib/jenkins/workspace/frustrated_pipe3@2@tmp/durable-97a4151d' -a \! -f '/var/lib/jenkins/workspace/frustrated_pipe3@2@tmp/durable-97a4151d/jenkins-result.txt' ]; do touch '/var/lib/jenkins/workspace/frustrated_pipe3@2@tmp/durable-97a4151d/jenkins-log.txt'; sleep 3; done } & jsc=durable-b7fb66abb5e9d3dd4eaa04893cbeabc261674353c093f97f5e935cf14e9f3fbe; JENKINS_SERVER_COOKIE=$jsc 'sh' -xe  '/var/lib/jenkins/workspace/frustrated_pipe3@2@tmp/durable-97a4151d/script.sh' > '/var/lib/jenkins/workspace/frustrated_pipe3@2@tmp/durable-97a4151d/jenkins-log.txt' 2>&1; echo $? > '/var/lib/jenkins/workspace/frustrated_pipe3@2@tmp/durable-97a4151d/jenkins-result.txt.tmp'; mv '/var/lib/jenkins/workspace/frustrated_pipe3@2@tmp/durable-97a4151d/jenkins-result.txt.tmp' '/var/lib/jenkins/workspace/frustrated_pipe3@2@tmp/durable-97a4151d/jenkins-result.txt'; wait) >&- 2>&- &
+jenkins     2475    2472  0 06:21 ?        00:00:00 sh -xe /var/lib/jenkins/workspace/frustrated_pipe3@2@tmp/durable-97a4151d/script.sh
+jenkins     2476    2475  0 06:21 ?        00:00:00 ps -ef
+jenkins     2478    2474  0 06:21 ?        00:00:00 sleep 3
++ sleep 5
+[8mha:////4H5c90av07DQifq8rTJh1KM+71XqIkDc/9TqSjJmcEtBAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7Ny324eW+AAAA[0m[Pipeline] }
+[8mha:////4GO1VhANKQi+q7F3UauRvkcngkkZoKszLqXCkzVu2liqAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiabibGyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+AUIVvo2+AAAA[0m[Pipeline] // stage
+[8mha:////4Ck7d9GGidVkiRSvJ+y6y6UBr4uVeAEjgLe8IznjExttAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6LEkRgn14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmvhfk+1KQlR9JNeShvQAAAA==[0m[Pipeline] }
+[8mha:////4MnFeSizfPzPZgWprd0t//1OKp8sNHD2SjzYsaPah2F3AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICiA6lorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQrnf5todPj15byC+AAAA[0m[Pipeline] }
+[8mha:////4Bna7DtWox3WdTPdGax2WvHqCeq55uaGwAirpfoSawSZAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiQImo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoNzXuerDBzs/V3W+AAAA[0m[Pipeline] // stage
+[8mha:////4C4zThJlm3q7wEV2ark/uZaveh3/Um/rpc64iX3v7/h2AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICaRFVWisNLzCxMU6sO2M7JBUv4mv8AYtIVGyx2tlmXm9YxwAnDgZ7TYOl2Fn0bjR54cRhuDqesOcLdkyRncZWTy0r3SzYctKwpChhJWCjqXMcLZkEW9HLh6ycJFOdU8jfUUBp1R2eUIhsTjKkL8wBdrdRRaaf568AZu8TlHWd67D/AC8cymq+AAAA[0m[Pipeline] }
+[8mha:////4ANbgSdJIwDghQkzAXxhS9QTDjLi8H+2g/bfoRj2xGZhAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoKBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AEFyeIq9AAAA[0m[Pipeline] // parallel
+[8mha:////4MiWLhq/+m1IyIzkl+7ezsd/5uJhHkCbEiwnpgPyiZSBAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AMeeX0+9AAAA[0m[Pipeline] }
+[8mha:////4Gk1f3mrG0LCuN3Wcdl+irGjlHtjsUYmksRGZIIyc9HIAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkJkzGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8F+b4UZOUHzeY2670AAAA=[0m[Pipeline] // stage
+[8mha:////4ETyQxvCtlTUn3MNOar8DtILHIw0gdysz/WM4Ezs8BBmAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjIUSDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8AzYdm7bBAAAA[0m[Pipeline] stage
+[8mha:////4ByLvKD3csIOl8uivZ9dXWnD5RVR2DOyM+8K3PE6RMfpAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] { (deploy)
+[8mha:////4Ig9UJ6oNN//tyGLE2XzJFRxDDdtxBGmKzZc8VMu3oiWAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0YCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGvZp0gvgAAAA==[0m[Pipeline] echo
+testing parallel
+[8mha:////4EzmNRonbtFvd35PASmpt9ruNNGMCfv3pvWrigfgMM/1AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0SCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGMKkS1vgAAAA==[0m[Pipeline] }
+[8mha:////4LXKaz1/LmRn60eEonFCWB9KJZu48dDILjaNaHv8A491AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCQKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9mQDtDvgAAAA==[0m[Pipeline] // stage
+[8mha:////4CZPijCkAK+loU2WWfBQWjwFBYGU0JNkUOJ7FX2hF9+EAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRgg5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8BPqPtor0AAAA=[0m[Pipeline] }
+[8mha:////4HhPUw1o2xuZVQ/z80AyEjChq2GLHpZCNH1te1rYXjZaAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkMhon14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmvhfk5V6QlR9NTCl7vQAAAA==[0m[Pipeline] // node
+[8mha:////4Cn3M1F9n7pQAkUoOqn5RtxkZ8mE9UR9QbzIfC1qASUSAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkMhon14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmvhfkZSnI9h9rVU4xvQAAAA==[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

@@ -1,0 +1,63 @@
+Started by user [8mha:////4L1unL1ymRBprDhx1tRSkwquNBllN8HN9p9L8Et+lTBtAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/dLi1CL93MS8xOLEpIzEEgAtoZAAxQAAAA==[0mmanasabhat
+Running as SYSTEM
+Building remotely on [8mha:////4JMG9Cpf2VKCif3QkeHybTFxtOmF34d//goMftHLOu6kAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZx/eT83ILSktQi/YCixOSSzOLUeC+gqQCR3IzmzAAAAA==[0mPractise_Java (practise) in workspace /home/jenkins/workspace/Private_repo_181122
+The recommended git tool is: NONE
+using credential private_repo
+ > git rev-parse --resolve-git-dir /home/jenkins/workspace/Private_repo_181122/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url gh repo clone Manasabhat2222/Private_repo # timeout=10
+Fetching upstream changes from gh repo clone Manasabhat2222/Private_repo
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ERROR: Error fetching remote repo 'origin'
+hudson.plugins.git.GitException: Failed to fetch from gh repo clone Manasabhat2222/Private_repo
+	at hudson.plugins.git.GitSCM.fetchFrom(GitSCM.java:1006)
+	at hudson.plugins.git.GitSCM.retrieveChanges(GitSCM.java:1248)
+	at hudson.plugins.git.GitSCM.checkout(GitSCM.java:1312)
+	at hudson.scm.SCM.checkout(SCM.java:540)
+	at hudson.model.AbstractProject.checkout(AbstractProject.java:1239)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.defaultCheckout(AbstractBuild.java:647)
+	at jenkins.scm.SCMCheckoutStrategy.checkout(SCMCheckoutStrategy.java:85)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:519)
+	at hudson.model.Run.execute(Run.java:1899)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:107)
+	at hudson.model.Executor.run(Executor.java:449)
+Caused by: hudson.plugins.git.GitException: Invalid remote URL: gh repo clone Manasabhat2222/Private_repo
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.addCheckedRemoteUrl(CliGitAPIImpl.java:491)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.access$400(CliGitAPIImpl.java:87)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl$1.execute(CliGitAPIImpl.java:590)
+	at org.jenkinsci.plugins.gitclient.RemoteGitImpl$CommandInvocationHandler$GitCommandMasterToSlaveCallable.call(RemoteGitImpl.java:158)
+	at org.jenkinsci.plugins.gitclient.RemoteGitImpl$CommandInvocationHandler$GitCommandMasterToSlaveCallable.call(RemoteGitImpl.java:151)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:211)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:54)
+	at hudson.remoting.Request$2.run(Request.java:376)
+	at hudson.remoting.InterceptingExecutorService.lambda$wrap$0(InterceptingExecutorService.java:78)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+	Suppressed: hudson.remoting.Channel$CallSiteStackTrace: Remote call to Practise_Java
+		at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1784)
+		at hudson.remoting.UserRequest$ExceptionResponse.retrieve(UserRequest.java:356)
+		at hudson.remoting.Channel.call(Channel.java:1000)
+		at org.jenkinsci.plugins.gitclient.RemoteGitImpl$CommandInvocationHandler.execute(RemoteGitImpl.java:143)
+		at jdk.internal.reflect.GeneratedMethodAccessor651.invoke(Unknown Source)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.jenkinsci.plugins.gitclient.RemoteGitImpl$CommandInvocationHandler.invoke(RemoteGitImpl.java:129)
+		at com.sun.proxy.$Proxy196.execute(Unknown Source)
+		at hudson.plugins.git.GitSCM.fetchFrom(GitSCM.java:1004)
+		at hudson.plugins.git.GitSCM.retrieveChanges(GitSCM.java:1248)
+		at hudson.plugins.git.GitSCM.checkout(GitSCM.java:1312)
+		at hudson.scm.SCM.checkout(SCM.java:540)
+		at hudson.model.AbstractProject.checkout(AbstractProject.java:1239)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.defaultCheckout(AbstractBuild.java:647)
+		at jenkins.scm.SCMCheckoutStrategy.checkout(SCMCheckoutStrategy.java:85)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:519)
+		at hudson.model.Run.execute(Run.java:1899)
+		at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+		at hudson.model.ResourceController.execute(ResourceController.java:107)
+		at hudson.model.Executor.run(Executor.java:449)
+ERROR: Error fetching remote repo 'origin'
+Finished: FAILURE

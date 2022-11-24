@@ -1,0 +1,136 @@
+Started by user [8mha:////4L1unL1ymRBprDhx1tRSkwquNBllN8HN9p9L8Et+lTBtAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/dLi1CL93MS8xOLEpIzEEgAtoZAAxQAAAA==[0mmanasabhat
+[8mha:////4NpzjPrbiW3Ly5EoU8oHuwC78SjuAv20WrAKH9TL2sgIAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4HtxO7SYXkT9ijvmkwmGr0Q4G2txkg+57F5VQ//29CM4AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4BlY/KL2SJuEX4SCbxEV+hwRwr0ek03JywwrAH5aqOY0AAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/lib/jenkins/workspace/frustrated_pipe8
+[8mha:////4DA7VbvVthw3uYM/Pr6spHym72VUbKF84LszXoiDs2lqAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4NHrBbcsAUbf3TZawplawtsQYdRDi9PmCkBHH4eZn0MdAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4PALxTy0ZvhnLLa418OYO7uH70utALgFGu6lqMM13MkLAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Stage1)
+[8mha:////4IKphz18L0Ka9bGGR/5jNp8kYLxCO8GZruqFHJD9Ye50AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] echo
+true
+[8mha:////4D3S6YBSQ0Z+XJTVHBwxM6sPuEL4+0qmJeypKHQ0EI65AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4NGNp1Via0F0gUsbZ+C6FfTL/Wn/6O7Z/l8WjRHegTIdAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4FCu0K+AdDIRnsy+s6HT0qqOkb+ylmY6AXm0IdQD9/TSAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4AYJ0fqaBa/Uf5lwv+oG2UmfmxNojNYcD3GpvNt/DaYuAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (Stage2)
+[8mha:////4PMU6xVPFz2INGQGl0o1339qk8beWJ7Uj13b6P7cEue+AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] echo
+true
+[8mha:////4AjdfvGntUm8nYsnGsr2aEURUzFIey0NM2uqcAPmzVNwAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs35DNwLL4AAAA=[0m[Pipeline] echo
+frustrated_pipe8
+[8mha:////4HKoBBmh27QuOxD/Y+W7favYexajtPBYCYP6U5OeXGSNAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaJm7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+ATnVfPq+AAAA[0m[Pipeline] }
+[8mha:////4MObe5wGvvwsPqit3rJJXY/PrI0LSSon2hxQZe3vYHosAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICBRWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bgo2J0a+AAAA[0m[Pipeline] // stage
+[8mha:////4EDlIf+z0kBI4J8yv/ndqq19QPA4zAiRu6Lyc8X4gI1XAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8A6sHc4fBAAAA[0m[Pipeline] stage
+[8mha:////4NfdumEgMDkR/QuDS26tsNVBrGAyw24f4wujidvvvzgJAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (Stage3)
+[8mha:////4DV8xiBhlcddUCLQ59GKRDoKJ7j8d7BkCxB4kKzfoF5WAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] node
+Running on [8mha:////4NXq7kiNff041E0hYyvMZIyz31VqiRhJvbEAa9wm8RIGAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgYp/eT83ILSktQi/YCixOSSzOJUVVM3L5C5AGvW39nPAAAA[0mPractise_Java in /home/jenkins/jenkins-workspace/workspace/workspace/frustrated_pipe8
+[8mha:////4CYK9CQJa4Cyo9f6qgJgjW/2wbe0OnlwB33nKmIhfm0nAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] {
+[8mha:////4CnTO/aKBgSoe3+PnX6MPFsJUdhdngL6Mi4YtY7/3njLAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] sh
++ df -h .
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root       7.6G  3.7G  4.0G  48% /
+[8mha:////4PdhPskHvmPO9HYs4nkC9DnPFTXQtDTOLpOe8+115p/zAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOW+zlUfPiXWgpW+AAAA[0m[Pipeline] }
+[8mha:////4FPB2LSlPwq3daHqG/DxeO8rO8y1F8DQLMvVT3kWC6k2AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRqZAQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AEdlBFkvgAAAA==[0m[Pipeline] // node
+[8mha:////4FY1wFW7Jg3RORGurR6d0U7wxz1FdXcmgz+D6dTN5jzHAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw8pWvI/vgAAAA==[0m[Pipeline] }
+[8mha:////4Dpb9yy0jDfIYMLy7HucnMz2+bT6ZA0SpHfQ+SF/A1s3AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw8HWvBVvgAAAA==[0m[Pipeline] // stage
+[8mha:////4GNWnQotq/06C5ngFGHLyNJR/2+t8FHV651m+3E4tDMHAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjIagQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHILYMxWb3OZZvmG8PMMEAAAA=[0m[Pipeline] stage
+[8mha:////4IJOeYM5rYMbsbOtRXvOoMqw2fOSwPwif4VQb83mGFmBAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] { (Stage4)
+[8mha:////4FSrwlRap2Gnt484vAN72ae6fLjqsGyVANHPZlbplT7SAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUUCBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHUcXIBvgAAAA==[0m[Pipeline] sh
++ ps -ef
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 01:43 ?        00:00:04 /sbin/init
+root           2       0  0 01:43 ?        00:00:00 [kthreadd]
+root           3       2  0 01:43 ?        00:00:00 [rcu_gp]
+root           4       2  0 01:43 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 01:43 ?        00:00:00 [netns]
+root           6       2  0 01:43 ?        00:00:00 [kworker/0:0-cgroup_destroy]
+root           7       2  0 01:43 ?        00:00:00 [kworker/0:0H-events_highpri]
+root           9       2  0 01:43 ?        00:00:00 [kworker/0:1H-kblockd]
+root          10       2  0 01:43 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 01:43 ?        00:00:00 [rcu_tasks_rude_]
+root          12       2  0 01:43 ?        00:00:00 [rcu_tasks_trace]
+root          13       2  0 01:43 ?        00:00:00 [ksoftirqd/0]
+root          14       2  0 01:43 ?        00:00:00 [rcu_sched]
+root          15       2  0 01:43 ?        00:00:00 [migration/0]
+root          16       2  0 01:43 ?        00:00:00 [idle_inject/0]
+root          18       2  0 01:43 ?        00:00:00 [cpuhp/0]
+root          19       2  0 01:43 ?        00:00:00 [kdevtmpfs]
+root          20       2  0 01:43 ?        00:00:00 [inet_frag_wq]
+root          21       2  0 01:43 ?        00:00:00 [kauditd]
+root          22       2  0 01:43 ?        00:00:00 [khungtaskd]
+root          23       2  0 01:43 ?        00:00:00 [oom_reaper]
+root          24       2  0 01:43 ?        00:00:00 [writeback]
+root          25       2  0 01:43 ?        00:00:00 [kcompactd0]
+root          26       2  0 01:43 ?        00:00:00 [ksmd]
+root          27       2  0 01:43 ?        00:00:00 [khugepaged]
+root          73       2  0 01:43 ?        00:00:00 [kintegrityd]
+root          74       2  0 01:43 ?        00:00:00 [kblockd]
+root          75       2  0 01:43 ?        00:00:00 [blkcg_punt_bio]
+root          76       2  0 01:43 ?        00:00:00 [xen-balloon]
+root          77       2  0 01:43 ?        00:00:00 [tpm_dev_wq]
+root          78       2  0 01:43 ?        00:00:00 [ata_sff]
+root          79       2  0 01:43 ?        00:00:00 [md]
+root          80       2  0 01:43 ?        00:00:00 [edac-poller]
+root          81       2  0 01:43 ?        00:00:00 [devfreq_wq]
+root          82       2  0 01:43 ?        00:00:00 [watchdogd]
+root          86       2  0 01:44 ?        00:00:00 [kswapd0]
+root          87       2  0 01:44 ?        00:00:00 [ecryptfs-kthrea]
+root          89       2  0 01:44 ?        00:00:00 [kthrotld]
+root          90       2  0 01:44 ?        00:00:00 [acpi_thermal_pm]
+root          91       2  0 01:44 ?        00:00:00 [xenbus]
+root          92       2  0 01:44 ?        00:00:00 [xenwatch]
+root          93       2  0 01:44 ?        00:00:00 [nvme-wq]
+root          94       2  0 01:44 ?        00:00:00 [nvme-reset-wq]
+root          95       2  0 01:44 ?        00:00:00 [nvme-delete-wq]
+root          96       2  0 01:44 ?        00:00:00 [scsi_eh_0]
+root          97       2  0 01:44 ?        00:00:00 [scsi_tmf_0]
+root          98       2  0 01:44 ?        00:00:00 [scsi_eh_1]
+root          99       2  0 01:44 ?        00:00:00 [scsi_tmf_1]
+root         101       2  0 01:44 ?        00:00:00 [vfio-irqfd-clea]
+root         102       2  0 01:44 ?        00:00:00 [mld]
+root         103       2  0 01:44 ?        00:00:00 [ipv6_addrconf]
+root         112       2  0 01:44 ?        00:00:00 [kstrp]
+root         115       2  0 01:44 ?        00:00:00 [zswap-shrink]
+root         116       2  0 01:44 ?        00:00:00 [kworker/u31:0]
+root         121       2  0 01:44 ?        00:00:00 [charger_manager]
+root         122       2  0 01:44 ?        00:00:00 [jbd2/xvda1-8]
+root         123       2  0 01:44 ?        00:00:00 [ext4-rsv-conver]
+root         163       1  0 01:44 ?        00:00:00 /lib/systemd/systemd-journald
+root         198       1  0 01:44 ?        00:00:00 /lib/systemd/systemd-udevd
+root         210       2  0 01:44 ?        00:00:00 [cryptd]
+root         284       2  0 01:44 ?        00:00:00 [kaluad]
+root         285       2  0 01:44 ?        00:00:00 [kmpath_rdacd]
+root         286       2  0 01:44 ?        00:00:00 [kmpathd]
+root         287       2  0 01:44 ?        00:00:00 [kmpath_handlerd]
+root         288       1  0 01:44 ?        00:00:01 /sbin/multipathd -d -s
+systemd+     354       1  0 01:44 ?        00:00:00 /lib/systemd/systemd-timesyncd
+systemd+     414       1  0 01:44 ?        00:00:00 /lib/systemd/systemd-networkd
+systemd+     416       1  0 01:44 ?        00:00:00 /lib/systemd/systemd-resolved
+root         451       1  0 01:44 ?        00:00:00 /usr/lib/accountsservice/accounts-daemon
+root         452       1  0 01:44 ?        00:00:00 /usr/sbin/acpid
+root         459       1  0 01:44 ?        00:00:00 /usr/sbin/cron -f
+message+     460       1  0 01:44 ?        00:00:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+jenkins      468       1  0 01:44 ?        00:02:15 /usr/bin/java -Djava.awt.headless=true -jar /usr/share/java/jenkins.war --webroot=/var/cache/jenkins/war --httpPort=8080
+root         469       1  0 01:44 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         471       1  0 01:44 ?        00:00:00 /usr/lib/policykit-1/polkitd --no-debug
+syslog       472       1  0 01:44 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root         480       1  0 01:44 ?        00:00:00 /lib/systemd/systemd-logind
+root         482       1  0 01:44 ?        00:00:00 /usr/lib/udisks2/udisksd
+daemon       485       1  0 01:44 ?        00:00:00 /usr/sbin/atd -f
+root         531       1  0 01:44 ttyS0    00:00:00 /sbin/agetty -o -p -- \u --keep-baud 115200,38400,9600 ttyS0 vt220
+root         544       1  0 01:44 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root         549       1  0 01:44 ?        00:00:00 /usr/sbin/ModemManager
+root         630       1  0 01:44 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         778       1  0 01:44 ?        00:00:00 sshd: /usr/sbin/sshd -D -o AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys %u %f -o AuthorizedKeysCommandUser ec2-instance-connect [listener] 0 of 10-100 startups
+root         862       2  0 01:44 ?        00:00:01 [kworker/0:3-events]
+root        2644       2  0 06:04 ?        00:00:00 [kworker/u30:1-ext4-rsv-conversion]
+root        2763       2  0 06:09 ?        00:00:00 [kworker/u30:2-events_unbound]
+root        2817       2  0 06:18 ?        00:00:00 [kworker/u30:0-events_unbound]
+jenkins     2930       1  0 06:24 ?        00:00:00 sh -c ({ while [ -d '/var/lib/jenkins/workspace/frustrated_pipe8@tmp/durable-bb7a2548' -a \! -f '/var/lib/jenkins/workspace/frustrated_pipe8@tmp/durable-bb7a2548/jenkins-result.txt' ]; do touch '/var/lib/jenkins/workspace/frustrated_pipe8@tmp/durable-bb7a2548/jenkins-log.txt'; sleep 3; done } & jsc=durable-f2fa1977af651f800dc010cfe451d2fd12f62669c5830ebba6348deeedac1895; JENKINS_SERVER_COOKIE=$jsc 'sh' -xe  '/var/lib/jenkins/workspace/frustrated_pipe8@tmp/durable-bb7a2548/script.sh' > '/var/lib/jenkins/workspace/frustrated_pipe8@tmp/durable-bb7a2548/jenkins-log.txt' 2>&1; echo $? > '/var/lib/jenkins/workspace/frustrated_pipe8@tmp/durable-bb7a2548/jenkins-result.txt.tmp'; mv '/var/lib/jenkins/workspace/frustrated_pipe8@tmp/durable-bb7a2548/jenkins-result.txt.tmp' '/var/lib/jenkins/workspace/frustrated_pipe8@tmp/durable-bb7a2548/jenkins-result.txt'; wait) >&- 2>&- &
+jenkins     2932    2930  0 06:24 ?        00:00:00 sh -c ({ while [ -d '/var/lib/jenkins/workspace/frustrated_pipe8@tmp/durable-bb7a2548' -a \! -f '/var/lib/jenkins/workspace/frustrated_pipe8@tmp/durable-bb7a2548/jenkins-result.txt' ]; do touch '/var/lib/jenkins/workspace/frustrated_pipe8@tmp/durable-bb7a2548/jenkins-log.txt'; sleep 3; done } & jsc=durable-f2fa1977af651f800dc010cfe451d2fd12f62669c5830ebba6348deeedac1895; JENKINS_SERVER_COOKIE=$jsc 'sh' -xe  '/var/lib/jenkins/workspace/frustrated_pipe8@tmp/durable-bb7a2548/script.sh' > '/var/lib/jenkins/workspace/frustrated_pipe8@tmp/durable-bb7a2548/jenkins-log.txt' 2>&1; echo $? > '/var/lib/jenkins/workspace/frustrated_pipe8@tmp/durable-bb7a2548/jenkins-result.txt.tmp'; mv '/var/lib/jenkins/workspace/frustrated_pipe8@tmp/durable-bb7a2548/jenkins-result.txt.tmp' '/var/lib/jenkins/workspace/frustrated_pipe8@tmp/durable-bb7a2548/jenkins-result.txt'; wait) >&- 2>&- &
+jenkins     2933    2930  0 06:24 ?        00:00:00 sh -xe /var/lib/jenkins/workspace/frustrated_pipe8@tmp/durable-bb7a2548/script.sh
+jenkins     2935    2933  0 06:24 ?        00:00:00 ps -ef
+jenkins     2937    2932  0 06:24 ?        00:00:00 sleep 3
+[8mha:////4GTLVX0eIwQj/6B5zHwL16obWkzw18F5bCetk2PtwODjAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUSAkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g2/yR8JvgAAAA==[0m[Pipeline] }
+[8mha:////4I7UUKes2WOq9KDuQFO0s+RcI/Cp/r9ZiVDBjZAi1cftAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIVEgRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g2gS0pbvgAAAA==[0m[Pipeline] // stage
+[8mha:////4LOSnEmlN3X2mvd+D/Yhs89uC/zLNSKUt94X6Gje0Vm8AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBgg5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8BjoqNn70AAAA=[0m[Pipeline] }
+[8mha:////4PLP2T62HY+VUVBSi5H0JB7yxUsm1CvFIB778CYoyhKmAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6LEMBon14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmvhfk5V6QlR+dNok8vQAAAA==[0m[Pipeline] // node
+[8mha:////4PgVMHgZyOvzVbkbz1sr3fKHLVKYrWHKHKf/RSv3i35HAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkOBon14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmvhfk+1KQlR/bfC4MvQAAAA==[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

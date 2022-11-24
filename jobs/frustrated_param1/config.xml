@@ -1,0 +1,119 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1254.v3f64639b_11dd">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2118.v31fd5b_9944b_5"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2118.v31fd5b_9944b_5">
+      <jobProperties/>
+      <triggers/>
+      <parameters>
+        <string>opt</string>
+        <string>c_proj</string>
+        <string>private_repo</string>
+      </parameters>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description>trying param</description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.security.AuthorizationMatrixProperty>
+      <inheritanceStrategy class="org.jenkinsci.plugins.matrixauth.inheritance.InheritParentStrategy"/>
+      <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.Create:manasabhat</permission>
+      <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.Delete:manasabhat</permission>
+      <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.ManageDomains:manasabhat</permission>
+      <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.Update:manasabhat</permission>
+      <permission>GROUP:com.cloudbees.plugins.credentials.CredentialsProvider.View:authenticated</permission>
+      <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.View:anonymous</permission>
+      <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.View:manasabhat</permission>
+      <permission>USER:hudson.model.Item.Build:manasabhat</permission>
+      <permission>USER:hudson.model.Item.Cancel:manasabhat</permission>
+      <permission>USER:hudson.model.Item.Configure:manasabhat</permission>
+      <permission>USER:hudson.model.Item.Delete:manasabhat</permission>
+      <permission>USER:hudson.model.Item.Discover:manasabhat</permission>
+      <permission>USER:hudson.model.Item.Move:manasabhat</permission>
+      <permission>GROUP:hudson.model.Item.Read:authenticated</permission>
+      <permission>USER:hudson.model.Item.Read:anonymous</permission>
+      <permission>USER:hudson.model.Item.Read:manasabhat</permission>
+      <permission>USER:hudson.model.Item.Workspace:manasabhat</permission>
+      <permission>USER:hudson.model.Run.Delete:manasabhat</permission>
+      <permission>USER:hudson.model.Run.Replay:manasabhat</permission>
+      <permission>USER:hudson.model.Run.Update:manasabhat</permission>
+      <permission>USER:hudson.scm.SCM.Tag:manasabhat</permission>
+    </hudson.security.AuthorizationMatrixProperty>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>15</daysToKeep>
+        <numToKeep>3</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>c_proj</name>
+          <description>C project</description>
+          <defaultValue>https://github.com/Manasabhat2222/C-files.git</defaultValue>
+          <trim>true</trim>
+        </hudson.model.StringParameterDefinition>
+        <com.cloudbees.plugins.credentials.CredentialsParameterDefinition plugin="credentials@1189.vf61b_a_5e2f62e">
+          <name>private_repo</name>
+          <description>i dont know what is this</description>
+          <defaultValue>private_repo</defaultValue>
+          <credentialType>com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl</credentialType>
+          <required>true</required>
+        </com.cloudbees.plugins.credentials.CredentialsParameterDefinition>
+        <hudson.model.ChoiceParameterDefinition>
+          <name>opt</name>
+          <description>select any three</description>
+          <choices class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>Build</string>
+              <string>Deploy</string>
+              <string>Test</string>
+            </a>
+          </choices>
+        </hudson.model.ChoiceParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3536.vb_8a_6628079d5">
+    <script>pipeline {
+    agent any
+    parameters {
+  string defaultValue: &apos;https://github.com/Manasabhat2222/C-files.git&apos;, description: &apos;C project&apos;, name: &apos;c_proj&apos;, trim: true
+  credentials credentialType: &apos;com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl&apos;, defaultValue: &apos;private_repo&apos;, description: &apos;i dont know what is this&apos;, name: &apos;private_repo&apos;, required: true
+  choice choices: [&apos;Build&apos;, &apos;Deploy&apos;, &apos;Test&apos;], description: &apos;select any three&apos;, name: &apos;opt&apos;
+}
+    stages {
+        stage(&apos;Build&apos;) {
+            steps {
+                script {
+                    if ( &quot;${params.opt}&quot;== &apos;Build&apos; )
+                    {
+                    git branch: &apos;main&apos;, url:&quot;${c_proj}&quot; 
+                    sh &apos;&apos;&apos;
+                    cd /var/lib/jenkins/workspace/frustrated_param1
+                    make ABC.exe
+                    exit 0
+                    &apos;&apos;&apos;
+                    }
+                    
+                    if (&quot;${params.opt}&quot;== &apos;Deploy&apos;)
+                    {
+                        sh &apos; echo &quot;${private_repo}&quot; &apos;
+                    }
+                    if (&quot;${params.opt}&quot;== &apos;Test&apos;) {
+                        sh &apos; echo &quot; You have selected Test&quot; &apos;
+                    }
+                }
+            }
+        }
+               
+    }
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

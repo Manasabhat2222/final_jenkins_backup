@@ -1,0 +1,19 @@
+Started by user [8mha:////4L1unL1ymRBprDhx1tRSkwquNBllN8HN9p9L8Et+lTBtAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/dLi1CL93MS8xOLEpIzEEgAtoZAAxQAAAA==[0mmanasabhat
+Running as SYSTEM
+Building remotely on [8mha:////4JMG9Cpf2VKCif3QkeHybTFxtOmF34d//goMftHLOu6kAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZx/eT83ILSktQi/YCixOSSzOLUeC+gqQCR3IzmzAAAAA==[0mPractise_Java (practise) in workspace /home/jenkins/workspace/Practise_Java_181122
+FATAL: Git repository URL 2 is an empty string in job definition. Checkout requires a valid repository URL
+java.lang.IllegalArgumentException: Git repository URL 2 is an empty string in job definition. Checkout requires a valid repository URL
+	at hudson.plugins.git.GitSCM.buildEnvironment(GitSCM.java:1573)
+	at hudson.plugins.git.GitSCM.buildEnvVars(GitSCM.java:1518)
+	at hudson.model.AbstractBuild.getEnvironment(AbstractBuild.java:965)
+	at hudson.plugins.git.GitSCM.checkout(GitSCM.java:1300)
+	at hudson.scm.SCM.checkout(SCM.java:540)
+	at hudson.model.AbstractProject.checkout(AbstractProject.java:1239)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.defaultCheckout(AbstractBuild.java:647)
+	at jenkins.scm.SCMCheckoutStrategy.checkout(SCMCheckoutStrategy.java:85)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:519)
+	at hudson.model.Run.execute(Run.java:1899)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:107)
+	at hudson.model.Executor.run(Executor.java:449)
+Finished: FAILURE

@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-11-19 06:26:12.475 UTC</timestamp>
+  <md5sum>7c32a900793ae9397a9e9ed5ee797e89</md5sum>
+  <fileName>Credential id=private_repo name=Manasabhat2222/****** (for private repo)</fileName>
+  <usages>
+    <entry>
+      <string>Private_repo_181122</string>
+      <ranges>4-9</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

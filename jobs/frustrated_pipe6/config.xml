@@ -1,0 +1,73 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1254.v3f64639b_11dd">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2118.v31fd5b_9944b_5"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2118.v31fd5b_9944b_5">
+      <jobProperties/>
+      <triggers/>
+      <parameters>
+        <string>BRANCH</string>
+      </parameters>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description>params with pipeline</description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.ChoiceParameterDefinition>
+          <name>BRANCH</name>
+          <description>choose b/w main and master</description>
+          <choices class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>main</string>
+              <string>master</string>
+            </a>
+          </choices>
+        </hudson.model.ChoiceParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3536.vb_8a_6628079d5">
+    <script>pipeline {
+    agent { label &apos;practise&apos; }
+    parameters {
+  choice choices: [&apos;main&apos;, &apos;master&apos;], description: &apos;choose b/w main and master&apos;, name: &apos;BRANCH&apos;
+    }
+  environment {
+  ENVJAVA=&quot;https://github.com/Manasabhat2222/Java.git&quot;
+  ENVC=&quot;https://github.com/Manasabhat2222/C-files.git&quot;
+}
+stages {
+    stage(&apos;Build&apos;) {
+        steps {
+            script {
+                if ( $(params.BRANCH) == &apos;main&apos; )
+                {
+                    git branch: $(params.BRANCH) , credentialsId: &apos;jenkins&apos;, url: $env.ENVC
+                    sh &apos;&apos;&apos;
+                    cd /home/jenkins/jenkins-workspace/workspace/workspace/frustrated_pipe6
+                    make ABC.exe
+                    rm -rf *.o
+                    sleep 5
+                    &apos;&apos;&apos;
+                }
+                else {
+                    git branch: $(params.BRANCH) , credentialsId: &apos;jenkins&apos;, url: $env.ENVJAVA
+                    sh &apos;&apos;&apos;
+                    cd /home/jenkins/jenkins-workspace/workspace/workspace/frustrated_pipe6
+                    mvn clean install
+                    sleep 5
+                    &apos;&apos;&apos;
+                }
+            }
+        }
+    }
+}
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

@@ -1,0 +1,78 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1254.v3f64639b_11dd">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2118.v31fd5b_9944b_5"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2118.v31fd5b_9944b_5">
+      <jobProperties/>
+      <triggers/>
+      <parameters>
+        <string>Stage1</string>
+        <string>JOB_NAME</string>
+      </parameters>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description>MK sir viva question of 22nd Nov 2022</description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>10</daysToKeep>
+        <numToKeep>3</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.BooleanParameterDefinition>
+          <name>Stage1</name>
+          <description>To check if true or false</description>
+          <defaultValue>false</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>JOB_NAME</name>
+          <description>Enter the job name</description>
+          <defaultValue>frustrated_pipe8</defaultValue>
+          <trim>true</trim>
+        </hudson.model.StringParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3536.vb_8a_6628079d5">
+    <script>pipeline {
+    agent any
+    parameters {
+  booleanParam description: &apos;To check if true or false&apos;, name: &apos;Stage1&apos;
+string defaultValue: &apos;frustrated_pipe8&apos;, description: &apos;Enter the job name&apos;, name: &apos;JOB_NAME&apos;, trim: true
+    }
+    stages {
+        stage(&apos;Stage1&apos;) {
+            steps {
+                echo &quot;${params.Stage1}&quot;
+            }
+        }
+        stage(&apos;Stage2&apos;) {
+            steps {
+                echo &quot;${params.Stage1}&quot;
+                echo &quot;${params.JOB_NAME}&quot;
+            }
+        }
+        stage(&apos;Stage3&apos;) {
+            agent { label &apos;practise&apos; }
+            steps {
+                sh &apos;df -h .&apos; 
+            }
+        }
+        stage(&apos;Stage4&apos;) {
+            steps {
+            sh &apos;ps -ef&apos;
+        }
+    }
+    }
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

@@ -1,0 +1,56 @@
+Started by user [8mha:////4L1unL1ymRBprDhx1tRSkwquNBllN8HN9p9L8Et+lTBtAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/dLi1CL93MS8xOLEpIzEEgAtoZAAxQAAAA==[0mmanasabhat
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+WorkflowScript: 13: Undefined section "stage" @ line 13, column 17.
+                   stage('build1') {
+                   ^
+
+WorkflowScript: 20: Multiple occurrences of the stage section @ line 20, column 17.
+                   stage('parallel_nested') {
+                   ^
+
+WorkflowScript: 20: Undefined section "stage" @ line 20, column 17.
+                   stage('parallel_nested') {
+                   ^
+
+WorkflowScript: 45: Multiple occurrences of the stage section @ line 45, column 17.
+                   stage('build4') {
+                   ^
+
+WorkflowScript: 45: Undefined section "stage" @ line 45, column 17.
+                   stage('build4') {
+                   ^
+
+WorkflowScript: 52: Multiple occurrences of the stage section @ line 52, column 17.
+                   stage('build5') {
+                   ^
+
+WorkflowScript: 52: Undefined section "stage" @ line 52, column 17.
+                   stage('build5') {
+                   ^
+
+WorkflowScript: 12: Missing required section "axes" @ line 12, column 13.
+               matrix {
+               ^
+
+WorkflowScript: 12: Missing required section "stages" @ line 12, column 13.
+               matrix {
+               ^
+
+9 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:309)
+	at org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1107)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:624)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:602)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:579)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:323)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:293)
+	at org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.GroovySandbox$Scope.parse(GroovySandbox.java:163)
+	at org.jenkinsci.plugins.workflow.cps.CpsGroovyShell.doParse(CpsGroovyShell.java:142)
+	at org.jenkinsci.plugins.workflow.cps.CpsGroovyShell.reparse(CpsGroovyShell.java:127)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.parseScript(CpsFlowExecution.java:562)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.start(CpsFlowExecution.java:514)
+	at org.jenkinsci.plugins.workflow.job.WorkflowRun.run(WorkflowRun.java:336)
+	at hudson.model.ResourceController.execute(ResourceController.java:107)
+	at hudson.model.Executor.run(Executor.java:449)
+Finished: FAILURE

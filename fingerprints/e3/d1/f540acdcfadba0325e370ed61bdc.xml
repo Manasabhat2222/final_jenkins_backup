@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-11-19 06:53:46.855 UTC</timestamp>
+  <md5sum>e3d1f540acdcfadba0325e370ed61bdc</md5sum>
+  <fileName>Credential id=jenkins_private name=Manasabhat2222/****** (private_repo_2)</fileName>
+  <usages>
+    <entry>
+      <string>Private_repo_181122</string>
+      <ranges>10-11</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

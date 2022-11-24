@@ -1,0 +1,68 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1254.v3f64639b_11dd">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2118.v31fd5b_9944b_5"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2118.v31fd5b_9944b_5">
+      <jobProperties>
+        <string>jenkins.model.BuildDiscarderProperty</string>
+      </jobProperties>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>15</daysToKeep>
+        <numToKeep>3</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3536.vb_8a_6628079d5">
+    <script>pipeline {
+    agent any 
+    options {
+  buildDiscarder logRotator(artifactDaysToKeepStr: &apos;&apos;, artifactNumToKeepStr: &apos;&apos;, daysToKeepStr: &apos;15&apos;, numToKeepStr: &apos;3&apos;)
+}
+environment {
+NAME = &quot;MANASA&quot;
+}
+    stages {
+        stage(&apos;Build&apos;) {
+            steps {
+              sh &apos; echo &quot;This is build1&quot; &apos;  
+              sh &apos;echo $NAME&apos;
+              sh &apos;printenv | sort &gt; env &apos;
+            }
+        }
+        stage(&apos;Deploy&apos;) {
+            environment {
+                BRANCH=&quot;civil&quot;
+            }
+            steps {
+                sh &apos;&apos;&apos;
+                echo &quot;$BRANCH&quot;
+                &apos;&apos;&apos;
+            }
+        }
+        stage(&apos;Test&apos;){
+            steps {
+                sh &apos;&apos;&apos;
+                echo &quot;This envi variable defined below will not work&quot;
+                echo &quot; as BRANCH was defined in stage level and not pipeline level&quot;
+                echo &quot;$BRANCH&quot;
+                &apos;&apos;&apos;
+            }
+        }
+    }
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

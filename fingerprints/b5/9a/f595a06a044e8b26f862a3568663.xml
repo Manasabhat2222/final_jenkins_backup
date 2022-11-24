@@ -1,0 +1,36 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-11-14 01:01:30.530 UTC</timestamp>
+  <md5sum>b59af595a06a044e8b26f862a3568663</md5sum>
+  <fileName>Credential id=project_java name=jenkins (for java proj)</fileName>
+  <usages>
+    <entry>
+      <string>frustrated_pipe</string>
+      <ranges>5-7</ranges>
+    </entry>
+    <entry>
+      <string>projectjava</string>
+      <ranges>1-3</ranges>
+    </entry>
+    <entry>
+      <string>frustrated_pipe2</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>frustrated_pipe1</string>
+      <ranges>1-11,13</ranges>
+    </entry>
+  </usages>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1189.vf61b_a_5e2f62e">
+      <timestamp>1668865859668</timestamp>
+      <itemFullName>frustrated_pipe1</itemFullName>
+      <timestamp0>1668865859668</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@1189.vf61b_a_5e2f62e">
+      <timestamp>1669283930373</timestamp>
+      <nodeName>server_java</nodeName>
+      <timestamp0>1669282370369</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

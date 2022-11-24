@@ -1,0 +1,17 @@
+Started by user [8mha:////4L1unL1ymRBprDhx1tRSkwquNBllN8HN9p9L8Et+lTBtAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/dLi1CL93MS8xOLEpIzEEgAtoZAAxQAAAA==[0mmanasabhat
+Running as SYSTEM
+Building remotely on [8mha:////4JMG9Cpf2VKCif3QkeHybTFxtOmF34d//goMftHLOu6kAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZx/eT83ILSktQi/YCixOSSzOLUeC+gqQCR3IzmzAAAAA==[0mPractise_Java (practise) in workspace /home/jenkins/workspace/Private_repo_181122
+The recommended git tool is: NONE
+using credential private_repo
+ > git rev-parse --resolve-git-dir /home/jenkins/workspace/Private_repo_181122/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Manasabhat2222/Private_repo.git # timeout=10
+Fetching upstream changes from https://github.com/Manasabhat2222/Private_repo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_ASKPASS to set credentials for private repo
+ > git fetch --tags --force --progress -- https://github.com/Manasabhat2222/Private_repo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+ > git rev-parse origin/main^{commit} # timeout=10
+ERROR: Couldn't find any revision to build. Verify the repository and branch configuration for this job.
+Finished: FAILURE

@@ -1,0 +1,114 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson>
+  <disabledAdministrativeMonitors/>
+  <version>2.361.3</version>
+  <numExecutors>3</numExecutors>
+  <mode>NORMAL</mode>
+  <useSecurity>true</useSecurity>
+  <authorizationStrategy class="hudson.security.ProjectMatrixAuthorizationStrategy">
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.Create:manasabhat</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.Delete:manasabhat</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.ManageDomains:manasabhat</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.Update:manasabhat</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.View:manasabhat</permission>
+    <permission>USER:hudson.model.Computer.Build:manasabhat</permission>
+    <permission>USER:hudson.model.Computer.Configure:manasabhat</permission>
+    <permission>USER:hudson.model.Computer.Connect:manasabhat</permission>
+    <permission>USER:hudson.model.Computer.Create:manasabhat</permission>
+    <permission>USER:hudson.model.Computer.Delete:manasabhat</permission>
+    <permission>USER:hudson.model.Computer.Disconnect:manasabhat</permission>
+    <permission>USER:hudson.model.Hudson.Administer:manasabhat</permission>
+    <permission>USER:hudson.model.Hudson.Read:manasabhat</permission>
+    <permission>USER:hudson.model.Item.Build:manasabhat</permission>
+    <permission>USER:hudson.model.Item.Cancel:manasabhat</permission>
+    <permission>USER:hudson.model.Item.Configure:manasabhat</permission>
+    <permission>USER:hudson.model.Item.Create:manasabhat</permission>
+    <permission>USER:hudson.model.Item.Delete:manasabhat</permission>
+    <permission>USER:hudson.model.Item.Discover:manasabhat</permission>
+    <permission>USER:hudson.model.Item.Move:manasabhat</permission>
+    <permission>USER:hudson.model.Item.Read:manasabhat</permission>
+    <permission>USER:hudson.model.Item.Workspace:manasabhat</permission>
+    <permission>USER:hudson.model.Run.Delete:manasabhat</permission>
+    <permission>USER:hudson.model.Run.Replay:manasabhat</permission>
+    <permission>USER:hudson.model.Run.Update:manasabhat</permission>
+    <permission>USER:hudson.model.View.Configure:manasabhat</permission>
+    <permission>USER:hudson.model.View.Create:manasabhat</permission>
+    <permission>USER:hudson.model.View.Delete:manasabhat</permission>
+    <permission>USER:hudson.model.View.Read:manasabhat</permission>
+    <permission>USER:hudson.scm.SCM.Tag:manasabhat</permission>
+    <permission>USER:org.jfrog.hudson.ArtifactoryPlugin.Promote:manasabhat</permission>
+    <permission>USER:org.jfrog.hudson.ArtifactoryPlugin.Release:manasabhat</permission>
+  </authorizationStrategy>
+  <securityRealm class="hudson.security.HudsonPrivateSecurityRealm">
+    <disableSignup>false</disableSignup>
+    <enableCaptcha>false</enableCaptcha>
+  </securityRealm>
+  <disableRememberMe>false</disableRememberMe>
+  <projectNamingStrategy class="jenkins.model.ProjectNamingStrategy$DefaultProjectNamingStrategy"/>
+  <workspaceDir>${JENKINS_HOME}/workspace/${ITEM_FULL_NAME}</workspaceDir>
+  <buildsDir>${ITEM_ROOTDIR}/builds</buildsDir>
+  <markupFormatter class="hudson.markup.EscapedMarkupFormatter"/>
+  <jdks/>
+  <viewsTabBar class="hudson.views.DefaultViewsTabBar"/>
+  <myViewsTabBar class="hudson.views.DefaultMyViewsTabBar"/>
+  <clouds/>
+  <quietPeriod>5</quietPeriod>
+  <scmCheckoutRetryCount>0</scmCheckoutRetryCount>
+  <views>
+    <hudson.model.AllView>
+      <owner class="hudson" reference="../../.."/>
+      <name>all</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+    </hudson.model.AllView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>Jobs_until_201122</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="java.lang.String$CaseInsensitiveComparator"/>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+        <hudson.plugins.favorite.column.FavoriteColumn plugin="favorite@2.4.1"/>
+        <hudson.plugins.UpDownStreamViewColumn plugin="upstream-downstream-view@1.006"/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+  </views>
+  <primaryView>all</primaryView>
+  <slaveAgentPort>-1</slaveAgentPort>
+  <label>master</label>
+  <crumbIssuer class="hudson.security.csrf.DefaultCrumbIssuer">
+    <excludeClientIPFromCrumb>false</excludeClientIPFromCrumb>
+  </crumbIssuer>
+  <nodeProperties/>
+  <globalNodeProperties>
+    <hudson.slaves.EnvironmentVariablesNodeProperty>
+      <envVars serialization="custom">
+        <unserializable-parents/>
+        <tree-map>
+          <default>
+            <comparator class="java.lang.String$CaseInsensitiveComparator" reference="../../../../../../views/listView/jobNames/comparator"/>
+          </default>
+          <int>2</int>
+          <string>BRANCH</string>
+          <string>CIVIL</string>
+          <string>NAME</string>
+          <string>MANASA</string>
+        </tree-map>
+      </envVars>
+    </hudson.slaves.EnvironmentVariablesNodeProperty>
+  </globalNodeProperties>
+  <nodeRenameMigrationNeeded>false</nodeRenameMigrationNeeded>
+</hudson>

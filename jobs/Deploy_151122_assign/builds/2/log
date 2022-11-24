@@ -1,0 +1,6 @@
+Started by user [8mha:////4L1unL1ymRBprDhx1tRSkwquNBllN8HN9p9L8Et+lTBtAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/dLi1CL93MS8xOLEpIzEEgAtoZAAxQAAAA==[0mmanasabhat
+Running as SYSTEM
+Building remotely on [8mha:////4AAhDpmxsMHsCNtiwnWcmDvqBUb61ZB8KFkcdmXx+Ia/AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwOoBn6yfm5BaUlqUX6xalFZalF8c4A8iZuDccAAAA=[0mserver_C (Cproject) in workspace /home/jenkins/jenkins-workspace/workspace/Deploy_151122_assign
+[Deploy_151122_assign] $ /bin/sh -xe /tmp/jenkins5449666713697206435.sh
++ cd /home/jenkins/jenkins-workspace/workspace/Deploy_151122_assign
+Finished: SUCCESS

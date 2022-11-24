@@ -1,0 +1,9 @@
+Started by upstream project "[8mha:////4N0a6it1qOJ6ucA5xIV9fm0uinrXkFwenrqHfbpfff26AAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/az8JH2n0syclHhDU0NDI6P4xOLizPQ8fQDuJA4tzgAAAA==[0mBuild_151122_assign" build number [8mha:////4CiiwJI/JsY45YaLv+1iqCbVxlgtM6lanIjql9lrUpexAAAApx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZp/az8JH2n0syclHhDU0NDI6P4xOLizPQ8fUNDADGdVsnQAAAA[0m11
+originally caused by:
+ Started by GitHub push by Manasabhat2222
+Running as SYSTEM
+Building remotely on [8mha:////4AAhDpmxsMHsCNtiwnWcmDvqBUb61ZB8KFkcdmXx+Ia/AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwOoBn6yfm5BaUlqUX6xalFZalF8c4A8iZuDccAAAA=[0mserver_C (Cproject) in workspace /home/jenkins/jenkins-workspace/workspace/Deploy_151122_assign
+[Deploy_151122_assign] $ /bin/sh -xe /tmp/jenkins10757199304486684616.sh
++ cd /home/jenkins/jenkins-workspace/workspace/Deploy_151122_assign
+Triggering a new build of [8mha:////4DTulws3qaZk1pLDKO3cR0LDRuKT4e3w4nz9nOFXFF97AAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgYJ/az8JP2Q1OKSeENTQ0Mjo/jE4uLM9Dx9ADZa+dLNAAAA[0mTest_151122_assign
+Finished: SUCCESS

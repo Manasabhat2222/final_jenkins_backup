@@ -1,0 +1,31 @@
+Started by GitHub push by Manasabhat2222
+Running as SYSTEM
+Building remotely on [8mha:////4AAhDpmxsMHsCNtiwnWcmDvqBUb61ZB8KFkcdmXx+Ia/AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwOoBn6yfm5BaUlqUX6xalFZalF8c4A8iZuDccAAAA=[0mserver_C (Cproject) in workspace /home/jenkins/jenkins-workspace/workspace/Build_151122_assign
+The recommended git tool is: NONE
+using credential slave_c
+ > git rev-parse --resolve-git-dir /home/jenkins/jenkins-workspace/workspace/Build_151122_assign/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Manasabhat2222/C-files # timeout=10
+Fetching upstream changes from https://github.com/Manasabhat2222/C-files
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_SSH to set credentials for c projects
+Verifying host key using known hosts file
+[8mha:AAAAwB+LCAAAAAAAAP9djLENwjAQRY8gGIAS0VE77ihAVDQgRVAwQRSMfYl1tuwLStZgDWgYgnFYgIpE6fjN+19fes8PTGKAhakv0VFaOIrOqnTfehUsUnV0rFbbx2t79+8EkgNMrSLNJoNxHSzDLCvzWy5tTlqeOSDpTRNg/qfbDexlMGSUADS+K1+Gk2H2cS2lt7VGimmpqOqJTmpkUVhUxHI53KKTcrdFjEYYF1lUqhU3FfCKRc7o6Af/njhS1AAAAA==[0mYou're using 'Known hosts file' strategy to verify ssh host keys, but your known_hosts file does not exist, please go to 'Manage Jenkins' -> 'Configure Global Security' -> 'Git Host Key Verification Configuration' and configure host key verification.
+ > git fetch --tags --force --progress -- https://github.com/Manasabhat2222/C-files +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision e0a9b885dd78ff1b938234e2ca2bb9eb03f64cfe (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e0a9b885dd78ff1b938234e2ca2bb9eb03f64cfe # timeout=10
+Commit message: "Update big2.c"
+ > git rev-list --no-walk df16352d6790fd9faa759529d1094514c5649bef # timeout=10
+[Build_151122_assign] $ /bin/sh -xe /tmp/jenkins2382962751621908334.sh
++ cd /home/jenkins/jenkins-workspace/workspace/Build_151122_assign
++ make ABC.exe
+gcc -c big2.c
+big2.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 | biggest()
+      | ^~~~~~~
+gcc -o ABC.exe main.o big2.o fact.o rev.o fib.o pal.o sum.o big3.o sort.o
+Triggering a new build of [8mha:////4ER4/9a8amp4IZss0FghpztvOtvIsnftn5QEDGJJt06XAAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgYp/az8JH2X1IKc/Mp4Q1NDQyOj+MTi4sz0PH0AWVCIHM8AAAA=[0mDeploy_151122_assign
+Finished: SUCCESS

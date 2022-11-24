@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.5.2
+Build-Jdk-Spec: 11
+Specification-Title: CloudBees Disk Usage Simple Plugin
+Specification-Version: 0.0
+Implementation-Title: CloudBees Disk Usage Simple Plugin
+Implementation-Version: 178.v1a_4d2f6359a_8
+Plugin-Class: com.cloudbees.simplediskusage.QuickDiskUsagePlugin
+Group-Id: org.jenkins-ci.plugins
+Short-Name: cloudbees-disk-usage-simple
+Long-Name: CloudBees Disk Usage Simple Plugin
+Url: https://github.com/jenkinsci/cloudbees-disk-usage-simple-plugin
+Plugin-Version: 178.v1a_4d2f6359a_8
+Hudson-Version: 2.332.4
+Jenkins-Version: 2.332.4
+Plugin-Developers: Nicolas De Loof:ndeloof:nicolas.deloof@gmail.com,Arna
+ ud Heritier:aheritier:aheritier@apache.org,Manuel Recena:recena:recena@
+ gmail.com,Yoann Dubreuil:ydubreuil:,Pierre Beitz:pierrebtz:pibeitz@gmai
+ l.com
+Plugin-License-Name: The MIT license
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmUrl: https://github.com/jenkinsci/cloudbees-disk-usage-simple-
+ plugin
+

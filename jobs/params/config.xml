@@ -1,0 +1,82 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1254.v3f64639b_11dd">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2118.v31fd5b_9944b_5"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2118.v31fd5b_9944b_5">
+      <jobProperties/>
+      <triggers/>
+      <parameters>
+        <string>Username</string>
+        <string>Inform_y_did_u_select_this_option</string>
+        <string>Menu</string>
+        <string>hotel_open</string>
+      </parameters>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description>Trying params</description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>Username</name>
+          <description>blah blah</description>
+          <defaultValue>Manasa</defaultValue>
+          <trim>true</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.ChoiceParameterDefinition>
+          <name>Menu</name>
+          <description>Choose from the menu</description>
+          <choices>
+            <string>Idli</string>
+            <string>Masala_dosa</string>
+            <string>Rice_baath</string>
+          </choices>
+        </hudson.model.ChoiceParameterDefinition>
+        <hudson.model.BooleanParameterDefinition>
+          <name>hotel_open</name>
+          <description>Is this hotel open</description>
+          <defaultValue>false</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
+        <hudson.model.TextParameterDefinition>
+          <name>Inform_y_did_u_select_this_option</name>
+          <defaultValue>abc</defaultValue>
+          <trim>false</trim>
+        </hudson.model.TextParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3536.vb_8a_6628079d5">
+    <script>pipeline {
+agent any
+    parameters {
+  string defaultValue: &apos;Manasa&apos;, description: &apos;blah blah&apos;, name: &apos;Username&apos;, trim: true
+  choice choices: [&apos;Idli&apos;, &apos;Masala_dosa&apos;, &apos;Rice_baath&apos;], description: &apos;Choose from the menu&apos;, name: &apos;Menu&apos;
+  booleanParam description: &apos;Is this hotel open&apos;, name: &apos;hotel_open&apos;
+  text defaultValue: &apos;abc&apos;, name: &apos;Inform_y_did_u_select_this_option&apos;
+}
+environment {
+    Username=&quot;Manasa&quot;
+}
+stages {
+    stage(&apos;String&apos;) {
+        steps {
+            echo &quot;${params.hotel_open}&quot;
+            echo &quot;${params.Username}&quot;
+        }
+    }
+    stage(&apos;menu&apos;) {
+        steps {
+            echo &quot;${params.Menu}&quot;
+            echo &quot;${params.Inform_y_did_u_select_this_option}&quot;
+            echo &quot;$Username&quot;
+        }
+    }
+}
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

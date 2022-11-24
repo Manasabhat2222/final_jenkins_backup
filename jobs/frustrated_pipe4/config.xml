@@ -1,0 +1,74 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1254.v3f64639b_11dd">
+  <actions/>
+  <description>parallel nested</description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3536.vb_8a_6628079d5">
+    <script>pipeline {
+    agent any
+    stages{
+        stage(&apos;clone&apos;) {
+            steps {
+                sh &apos;&apos;&apos;
+                echo &quot;this is clone&quot;
+                &apos;&apos;&apos;
+            }
+        }
+        stage(&apos;parallel&apos;) {
+            matrix {
+                stage(&apos;build1&apos;) {
+                    steps {
+                        sh &apos;&apos;&apos;
+                        echo &quot;This is para1&quot;
+                        &apos;&apos;&apos;
+                    }
+                }
+                stage(&apos;parallel_nested&apos;) {
+                    matrix {
+                        stage(&apos;build6&apos;) {
+                            steps {
+                                sh &apos;&apos;&apos;
+                                echo &quot;This is para2&quot;
+                                &apos;&apos;&apos;
+                            }
+                        }
+                        stage(&apos;build2&apos;) {
+                            steps {
+                                sh &apos;&apos;&apos;
+                                echo &quot;This is para3&quot;
+                                &apos;&apos;&apos;
+                            }
+                        }
+                        stage(&apos;build3&apos;) {
+                            steps {
+                                sh &apos;&apos;&apos;
+                                echo &quot;This is para4&quot;
+                                &apos;&apos;&apos;
+                            }
+                        }
+                    }
+                }
+                stage(&apos;build4&apos;) {
+                    steps {
+                        sh &apos;&apos;&apos;
+                        echo &quot;This is para5&quot;
+                        &apos;&apos;&apos;
+                    }
+                }
+                stage(&apos;build5&apos;) {
+                    steps {
+                        sh &apos;&apos;&apos;
+                        echo &quot;This is para6&quot;
+                        &apos;&apos;&apos;
+                    }
+                }
+            }
+        }
+    }
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

@@ -1,0 +1,43 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>Deploy_151122_assign</upstreamProject>
+            <upstreamUrl>job/Deploy_151122_assign/</upstreamUrl>
+            <upstreamBuild>3</upstreamBuild>
+            <upstreamCauses>
+              <hudson.model.Cause_-UpstreamCause>
+                <upstreamProject>Build_151122_assign</upstreamProject>
+                <upstreamUrl>job/Build_151122_assign/</upstreamUrl>
+                <upstreamBuild>11</upstreamBuild>
+                <upstreamCauses>
+                  <com.cloudbees.jenkins.GitHubPushCause plugin="github@1.36.0">
+                    <pushedBy>Manasabhat2222</pushedBy>
+                  </com.cloudbees.jenkins.GitHubPushCause>
+                </upstreamCauses>
+              </hudson.model.Cause_-UpstreamCause>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>84</queueId>
+  <timestamp>1668507513645</timestamp>
+  <startTime>1668507513648</startTime>
+  <result>SUCCESS</result>
+  <duration>45</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn>server_C</builtOn>
+  <workspace>/home/jenkins/jenkins-workspace/workspace/Test_151122_assign</workspace>
+  <hudsonVersion>2.361.3</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

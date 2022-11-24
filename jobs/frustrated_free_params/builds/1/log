@@ -1,0 +1,8 @@
+Started by user [8mha:////4L1unL1ymRBprDhx1tRSkwquNBllN8HN9p9L8Et+lTBtAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/dLi1CL93MS8xOLEpIzEEgAtoZAAxQAAAA==[0mmanasabhat
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/frustrated_free_params
+[frustrated_free_params] $ /bin/bash /tmp/jenkins17816146362108590191.sh
+/tmp/jenkins17816146362108590191.sh: line 5: syntax error near unexpected token `elif'
+/tmp/jenkins17816146362108590191.sh: line 5: `elif [ ENV==run ];then'
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

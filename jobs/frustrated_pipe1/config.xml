@@ -1,0 +1,70 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1254.v3f64639b_11dd">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2118.v31fd5b_9944b_5"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2118.v31fd5b_9944b_5">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description>Frustrated soul trying catchError</description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3536.vb_8a_6628079d5">
+    <script>pipeline {
+    agent { label &apos;practise&apos; }
+    tools {
+        maven &apos;MAVEN_HOME_TRY&apos;
+    }
+    stages {
+        stage(&apos;clone&apos;) {
+            steps {
+             git branch: &apos;main&apos;, url: &apos;https://github.com/Manasabhat2222/C-files.git&apos;   
+            }
+        }
+        stage(&apos;clone java&apos;) {
+            steps {
+                git credentialsId: &apos;project_java&apos;, url: &apos;https://github.com/Manasabhat2222/Java.git&apos;
+            }
+        }
+        
+        stage(&apos;Build&apos;) {
+            steps {
+                catchError(buildResult: &apos;SUCCESS&apos;, message: &apos;Build stage failed.Check for errors&apos;, stageResult: &apos;FAILURE&apos;) {
+                sh &apos;&apos;&apos;
+            cd /home/jenkins/jenkins-workspace/workspace/workspace/frustrated_pipe1
+            make
+            rm -rf *.o
+            mkdir /home/jenkins/jenkins-workspace/workspace/workspace/frustrated_pipe1/irritated
+            mv /home/jenkins/jenkins-workspace/workspace/workspace/frustrated_pipe1/ABC.exe /home/jenkins/jenkins-workspace/workspace/workspace/frustrated_pipe1/irritated
+            mv /home/jenkins/jenkins-workspace/workspace/workspace/frustrated_pipe1/*.c makefile /home/jenkins/jenkins-workspace/workspace/workspace/frustrated_pipe1/irritated
+            &apos;&apos;&apos;
+                }
+            }
+        }
+        
+        stage(&apos;Build maven&apos;) {
+            steps {
+                sh &apos;&apos;&apos;
+                cd /home/jenkins/jenkins-workspace/workspace/workspace/frustrated_pipe1
+                mvn clean install
+                &apos;&apos;&apos;
+            }
+        }
+
+        stage(&apos;deploy_Java&apos;) {
+            steps {
+                sh &apos;&apos;&apos;
+                sudo cp /home/jenkins/jenkins-workspace/workspace/workspace/frustrated_pipe1/target/hello-world-war-1.0.0.war /opt/tomcat/webapps
+                &apos;&apos;&apos;
+            }
+        }
+    }
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>
